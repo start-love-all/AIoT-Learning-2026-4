@@ -6,7 +6,7 @@ using namespace cv;
 using namespace std;
 
 int main() {
-    // 1. 加载人脸检测器（记得把 XML 文件重新放回项目目录）
+    // 1. 加载人脸检测器 记得把 XML 文件重新放回项目目录
     CascadeClassifier face_cascade;
     // 建议这里先用绝对路径，确保能跑通
     if (!face_cascade.load("E:/opencv/opencv/build/etc/haarcascades/haarcascade_frontalface_default.xml")) {

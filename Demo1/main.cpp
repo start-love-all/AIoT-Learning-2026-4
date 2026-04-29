@@ -13,7 +13,7 @@ int main() {
         cout << "错误：无法加载 XML 特征文件！" << endl;
         return -1;
     }
-
+    //
     // 2. 打开摄像头
     VideoCapture cap(0);
     if (!cap.isOpened()) return -1;
